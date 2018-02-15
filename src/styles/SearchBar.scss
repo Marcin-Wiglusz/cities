@@ -1,0 +1,23 @@
+@import "./normalize.scss";
+
+input {
+  font-size: 12px;
+  width: 50%;
+  height: 2.000em;
+  margin: 0.833em 0 0.833em 0.833em;
+  border:1px solid #a8a4a4;
+  border-radius: 0.188em 0 0 0.188em;
+  border-right: 0;
+  padding: 0.125em 0 0.125em 0.313em;
+}
+
+button {
+  font-size: 12px;
+  border-radius: 0 0.188em 0.188em 0;
+  background-color: #f1f1fe;
+  border:1px solid #a8a4a4;
+  height: 2.417em;
+  width: 4.000em;
+  padding: 0;
+  cursor: pointer;
+}

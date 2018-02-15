@@ -1,0 +1,35 @@
+@import "./normalize.scss";
+
+table {
+  margin-left: 0.625em;
+  width: 90%;
+  border-spacing: 0;
+  border-top: solid #e5e5e5 1px;
+
+  .cityMap {
+    width: 31%;
+  }
+
+  th {
+    padding: 0.625em 0.313em;
+    width: 23%;
+    text-align: center;
+    border-bottom: solid #e5e5e5 1px;
+  }
+
+  td{
+    padding: 0.625em 0.313em;
+    width: 23%;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: solid #e5e5e5 1px;
+  }
+
+  .map {
+    padding: 0;
+  }
+
+  .background {
+    margin-bottom: 0.313em;
+  }
+}
