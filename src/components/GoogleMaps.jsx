@@ -9,7 +9,7 @@ import '../styles/GoogleMap.css';
 const GoogleMaps = (props) =>
     <ReactGoogleMapLoader
         params={{
-            key: "",
+            key: "AIzaSyBnpyIV5sXLR8CxiVutEtP-WeJnsJEPQYk",
             libraries: "places,geometry",
         }}
         render={googleMaps =>
